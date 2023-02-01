@@ -1,0 +1,38 @@
+#AddCar{
+    background-color: rgb(51, 180, 231);
+    border:none;
+    border-radius:8px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.currlight{
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.car-cont div{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.car-cont{
+    border: 2px solid black;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    width: 400px;
+}
+.incr,.decr{
+    padding: 0.1rem 0.5rem;
+}
+.startcar{
+    background-color: rgb(98, 233, 98);
+    padding: 0.2rem 1.3rem;
+    border-radius:8px;
+}
+.stopcar{
+    background-color: rgb(238, 170, 92);
+    padding: 0.2rem 1.3rem;
+    border-radius:8px;
+}
